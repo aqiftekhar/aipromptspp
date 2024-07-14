@@ -1,3 +1,5 @@
+import Feed from '@components/Feed';
+
 const Home = () => {
   return (
     <section className="w-full flex-center flex-col">
@@ -9,6 +11,9 @@ const Home = () => {
         <p className="desc text-center">
             AI Prompts App is an open-source AI Prompting tool for modern world to discover, center and share creative prompts
         </p>
+        
+        <Feed/>
+
     </section>
   )
 };
